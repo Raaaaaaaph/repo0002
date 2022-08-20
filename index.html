@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Healthy Things</title>
     <link rel="stylesheet" href="/assets/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 <body>
+
+    <!-- NAV -->
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="" class="flex items-center">
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Logo yoyoyo</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:text-white md:dar:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:text-white md:dar:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:text-white md:dar:hover:bg-transparent">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:text-white md:dar:hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAV -->
+
+    <!-- MAIN -->
+    <section class="relative bg-white" id="main">
+        <img src="assets/images/mainw.jpg" alt="m" class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100">
+        <div class="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
+        <div class="relative max-w-screen-xl px-4 py-32 mx-auto lg:h-[50vh] lg:items-center md:flex md:flex-row-reverse">
+            <div class="max-w-xl text-center">
+                <h1 class="text-3xl font-extrabold sm:text-5xl">
+                    health
+                    <strong class="font-thin text-rose-700 sm:block">Time to Get Healthy & Active</strong>
+                </h1>
+                <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="flex flex-col gap-4 mt-8 text-center">
+                    <a href="" class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring uppercase">
+                        read more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MAIN -->
+
+    <!-- FEATURES -->
+    <section class="container mx-auto px-20" id="features">
+        <div class="background-white">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pt-40 lg:pb-20 text-center">
+                <div class="p-6 bg-white rounded-lg text-left">
+                    <h3 class="text-lg font-bold mb-2">
+                        Weight Loss Linked To Healthy Eating
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-600">Participants who ate the most vegetables and consumed the fewest processed foods, sugary drinks and unhealthy fats shed the most kilograms</p>
+                    <div class="flex flex-col gap-4 mt-8 text-center">
+                        <a href="" class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-gray-400 sm:w-auto active:bg-gray-300 hover:bg-gray-500 focus:outline-none focus:ring uppercase">
+                            read more
+                        </a>
+                    </div>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg flex justify-center flex-col">
+                    <i class="fa-solid fa-carrot" style="font-size: 42px"></i>
+                    <h3 class="text-lg font-bold mb-2">
+                        Over 300 food products
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                </div>
+                <div class="p-6 bg-rose-100 rounded-lg flex justify-center flex-col">
+                    <i class="fa-solid fa-seedling" style="font-size: 42px"></i>
+                    <h3 class="text-lg font-bold mb-2">
+                        Only natural products
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                </div>
+                <div class="p-6 bg-gray-400 rounded-lg flex justify-center flex-col">
+                    <i class="fa-solid fa-poop" style="font-size: 42px"></i>
+                    <h3 class="text-lg font-bold mb-2">
+                        Significant weight loss
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- FEATURES -->
+
+
+
+    <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
 </body>
 </html>
